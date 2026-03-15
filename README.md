@@ -27,9 +27,3 @@ Instead of using two separate wall adapters (one for the AC pump and one for the
 
 ## Software Logic
 The logic uses `millis()` for non-blocking delays. When the PIR sensor detects motion, the microcontroller triggers the relay to turn the pump on. Once the cat leaves the sensor's range, the code keeps the pump running for an extra 30 seconds to ensure the cat has finished drinking, then shuts it off gently. 
-
-*Please check the `.ino` file in this repository for the complete source code.*
-
-## Future Improvements
-* **Detailed Schematic:** Draft a proper CAD schematic (e.g., using EasyEDA) for the custom AC-to-DC rectification and power routing circuit.
-* **Auto-Flush Feature:** Add a software timer to automatically run the pump for 1 minute every few hours to keep the water fresh and oxygenated, even if no motion is detected.
