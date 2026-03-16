@@ -1,5 +1,7 @@
 # Smart Motion-Activated Cat Water Fountain
 
+![Video Demo](working-prototype.mp4)
+
 ## Project Overview
 This is a personal project I built to upgrade my cat's water fountain. The original fountain ran continuously (24/7), which was inefficient, consumed unnecessary power, and put continuous wear on the AC water pump. I modified the system to turn on automatically only when the cat approaches, using a PIR motion sensor, an Arduino-compatible microcontroller, and a custom power-routing circuit.
 
